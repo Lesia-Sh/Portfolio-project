@@ -1,10 +1,11 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #ee495d;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --background-colour: #f9f7fe;
 }
 h1 {
+  color: var(--branding-color) !important;
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
@@ -19,12 +20,16 @@ h2 {
 h3 {
   font-family: var(--heading-font-family);
   font-size: 48px;
+  color: var(--branding-color);
 }
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+body {
+  background-color: #fcb5b0;
 }
 .hero {
   background-color: var(--background-colour);
@@ -91,7 +96,10 @@ p {
   padding: 80px 60px;
 }
 .logo {
-  max-height: 40px;
+  max-height: 100px;
+}
+.star {
+  color: #ee495d !important;
 }
 nav {
   padding: 20px 0;
